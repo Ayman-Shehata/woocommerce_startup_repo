@@ -27,7 +27,7 @@ This is a readonly webAPI for get categories
     {Category 1}, {Category 2},{Category 3}
 ]
 
--   Image url is in a list of details called 'src' and can be ``` dart null ```
+-   Image url is in a list of details called 'src' and can be ``` null ```
 ```dart 
     [
     {
@@ -89,3 +89,4 @@ This is a readonly webAPI for get categories
 ]
 
 ```
+![img1](https://github.com/Ayman-Shehata/woocommerce_startup_repo/blob/master/preview/nullimage.PNG)
