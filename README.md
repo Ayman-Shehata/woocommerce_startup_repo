@@ -18,4 +18,4 @@ This is a readonly webAPI for get categories
    const consumerSecret = 'consumer_secret=cs_f7b532e73aec482b2378a20f818f05684a0e3242';
    
    ```
-![img1](https://github.com/Ayman-Shehata/woocommerce_startup_repo/blob/master/preview/postman.png)
+![img1](https://github.com/Ayman-Shehata/woocommerce_startup_repo/blob/master/preview/postman.PNG)
