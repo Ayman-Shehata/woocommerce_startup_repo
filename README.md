@@ -1,16 +1,21 @@
-# woo_template
+# Woocommerce_app
 
-A new Flutter project.
+A Startup Project (Categories view)
 
 ## Getting Started
+[WebSite](https://shop.absobject.com/)
 
-This project is a starting point for a Flutter application.
+Let's try API with postman 
+This is a readonly webAPI for get categories 
+[WebAPI to view categories](http://shop.absobject.com/wp-json/wc/v2/products/categories?consumer_key=ck_fec37ac0d172a010c7b6a0e988d96af4b2d931bc&consumer_secret=cs_f7b532e73aec482b2378a20f818f05684a0e3242)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```dart
+   const mainUrl = 'http://shop.absobject.com/wp-json/wc/v2/';
+   const categoriesUrl = 'products/categories';
+   //with connectors ? and &
+   const consumerKey = '?consumer_key=ck_fec37ac0d172a010c7b6a0e988d96af4b2d931bc&';
+   const consumerSecret = 'consumer_secret=cs_f7b532e73aec482b2378a20f818f05684a0e3242';
+   
+   ```
+![img1](https://github.com/Ayman-Shehata/woocommerce_startup_repo /blob/master/postman.png)
