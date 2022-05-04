@@ -21,9 +21,14 @@ This is a readonly webAPI for get categories
    ```
 ![img1](https://github.com/Ayman-Shehata/woocommerce_startup_repo/blob/master/preview/postman.PNG)
 
+## JSON response
+### you can see
+- [
+    {Category 1}, {Category 2},{Category 3}
+]
 
+-   Image url is in a list of details called 'src' and can be ``` dart null ```
 ```dart 
-[{
     [
     {
         "id": 17,
@@ -48,29 +53,7 @@ This is a readonly webAPI for get categories
             ]
         }
     },
-    {
-        "id": 19,
-        "name": "Audio",
-        "slug": "audio",
-        "parent": 0,
-        "description": "",
-        "display": "default",
-        "image": null,
-        "menu_order": 0,
-        "count": 5,
-        "_links": {
-            "self": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories/19"
-                }
-            ],
-            "collection": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories"
-                }
-            ]
-        }
-    },
+    
     {
         "id": 22,
         "name": "Cameras",
@@ -102,193 +85,7 @@ This is a readonly webAPI for get categories
                 }
             ]
         }
-    },
-    {
-        "id": 23,
-        "name": "Computer &amp; Laptop",
-        "slug": "computer-laptop",
-        "parent": 0,
-        "description": "",
-        "display": "default",
-        "image": {
-            "id": 161,
-            "date_created": "2020-07-25T05:49:22",
-            "date_created_gmt": "2020-07-25T05:49:22",
-            "date_modified": "2020-07-25T05:49:22",
-            "date_modified_gmt": "2020-07-25T05:49:22",
-            "src": "https://shop.absobject.com/wp-content/uploads/2020/07/category-image-5-woo-slider.png",
-            "title": "category-image-5-woo-slider",
-            "alt": ""
-        },
-        "menu_order": 0,
-        "count": 5,
-        "_links": {
-            "self": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories/23"
-                }
-            ],
-            "collection": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories"
-                }
-            ]
-        }
-    },
-    {
-        "id": 27,
-        "name": "Headphones",
-        "slug": "headphones",
-        "parent": 19,
-        "description": "",
-        "display": "default",
-        "image": {
-            "id": 162,
-            "date_created": "2020-07-25T05:50:26",
-            "date_created_gmt": "2020-07-25T05:50:26",
-            "date_modified": "2020-07-25T05:50:26",
-            "date_modified_gmt": "2020-07-25T05:50:26",
-            "src": "https://shop.absobject.com/wp-content/uploads/2020/07/category-img-6-woo-slider.png",
-            "title": "category-img-6-woo-slider",
-            "alt": ""
-        },
-        "menu_order": 0,
-        "count": 2,
-        "_links": {
-            "self": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories/27"
-                }
-            ],
-            "collection": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories"
-                }
-            ],
-            "up": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories/19"
-                }
-            ]
-        }
-    },
-    {
-        "id": 29,
-        "name": "Home Appliances",
-        "slug": "home-appliances",
-        "parent": 0,
-        "description": "",
-        "display": "default",
-        "image": null,
-        "menu_order": 0,
-        "count": 5,
-        "_links": {
-            "self": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories/29"
-                }
-            ],
-            "collection": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories"
-                }
-            ]
-        }
-    },
-    {
-        "id": 33,
-        "name": "Most Popular",
-        "slug": "most-popular",
-        "parent": 0,
-        "description": "",
-        "display": "default",
-        "image": null,
-        "menu_order": 0,
-        "count": 15,
-        "_links": {
-            "self": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories/33"
-                }
-            ],
-            "collection": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories"
-                }
-            ]
-        }
-    },
-    {
-        "id": 35,
-        "name": "New Arrival",
-        "slug": "new-arrival",
-        "parent": 0,
-        "description": "",
-        "display": "default",
-        "image": null,
-        "menu_order": 0,
-        "count": 17,
-        "_links": {
-            "self": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories/35"
-                }
-            ],
-            "collection": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories"
-                }
-            ]
-        }
-    },
-    {
-        "id": 36,
-        "name": "On Sale",
-        "slug": "on-sale",
-        "parent": 0,
-        "description": "",
-        "display": "default",
-        "image": null,
-        "menu_order": 0,
-        "count": 9,
-        "_links": {
-            "self": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories/36"
-                }
-            ],
-            "collection": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories"
-                }
-            ]
-        }
-    },
-    {
-        "id": 48,
-        "name": "Smart Watch",
-        "slug": "smart-watch",
-        "parent": 46,
-        "description": "",
-        "display": "default",
-        "image": null,
-        "menu_order": 0,
-        "count": 4,
-        "_links": {
-            "self": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories/48"
-                }
-            ],
-            "collection": [
-                {
-                    "href": "https://shop.absobject.com/index.php/wp-json/wc/v2/products/categories"
-                }
-            ]
-        }
     }
 ]
-}
 
-]
 ```
