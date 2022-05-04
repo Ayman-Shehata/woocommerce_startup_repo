@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:woo_template/catego/cat_view.dart';
+import 'package:woo_template/catego/view/cat_view.dart';
 
 void main() {
   runApp(const MyApp());
