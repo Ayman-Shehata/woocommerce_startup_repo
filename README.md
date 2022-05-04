@@ -19,3 +19,6 @@ This is a readonly webAPI for get categories
    
    ```
 ![img1](https://github.com/Ayman-Shehata/woocommerce_startup_repo/blob/master/preview/postman.PNG)
+
+
+![img1](https://github.com/Ayman-Shehata/woocommerce_startup_repo/blob/master/preview/postman.PNG)
